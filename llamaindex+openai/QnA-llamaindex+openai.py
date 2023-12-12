@@ -7,7 +7,7 @@ from llama_index import SimpleDirectoryReader
 import os
 
 st.set_page_config(page_title="Chat with your uploaded docs, powered by LlamaIndex", page_icon="🦙", layout="centered", initial_sidebar_state="auto", menu_items=None)
-openai.api_key = "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"
+openai.api_key = "ENTER_API_KEY_HERE"
 st.title("Chat with your uploaded docs, powered by LlamaIndex 💬🦙")
 
 if "messages" not in st.session_state.keys():  # Initialize the chat messages history
