@@ -24,7 +24,7 @@ def generate_response(uploaded_file, query_text):
         texts = text_splitter.create_documents(texts)
 
         # Select embeddings
-        cohere_api_key = 'mM83lgP5hN1jpN7xSVt52BeFkZrXHvtLS2l7c95k'  # Replace with your actual API key
+        cohere_api_key = ''  # Replace with your actual API key
         embeddings = CohereEmbeddings(cohere_api_key=cohere_api_key)
 
         # Create a vectorstore from documents
