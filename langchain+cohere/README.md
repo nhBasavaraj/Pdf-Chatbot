@@ -1,2 +1,0 @@
-# QnA Langchain + Cohere
-
