@@ -26,7 +26,7 @@ This application allows users to ask questions from PDF files and receive answer
 4. Run the application:
 
     ```bash
-    streamlit run app.py
+    streamlit run llm-QnA-palm-2.py
     ```
 
 ## Usage
